@@ -11,9 +11,25 @@
 <body>
     <h1>User Story Generator</h1>
     <form id="userStoryForm">
-        <!-- Input fields for who, when, where, what, and why -->
-        <!-- ... (same as before) ... -->
-        <button type="button" onclick="generateUserStory()">Generate User Story</button>
+        <body>
+            <h1>User Story Generator</h1>
+            <form id="userStoryForm">
+                <label for="who">Who:</label>
+                <input type="text" id="who" required><br>
+        
+                <label for="when">When:</label>
+                <input type="text" id="when" required><br>
+        
+                <label for="where">Where:</label>
+                <input type="text" id="where" required><br>
+        
+                <label for="what">What:</label>
+                <input type="text" id="what" required><br>
+        
+                <label for="why">Why:</label>
+                <input type="text" id="why" required><br>
+        
+                <button type="button" onclick="generateUserStory()">Generate User Story</button>
     </form>
     <p id="userStoryOutput"></p>
 </body>
